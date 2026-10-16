@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "comic Sans MS";
+    color: #1a1a24;
+    background-color: #faf9f6
+}
+
+main{
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0,20px;
+}
+
+.T-shirt-img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.price{
+    font: size 56px; 
+    font-weight: bold;
+    color: #8B6f55;
+    margin-bottom: 30px;
+      font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+.basic{
+     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+ul{
+    padding-left: 30px;
+}
+
+li{
+    font-size: 22px;
+    margin-bottom: 15px;
+     font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+}
+
+.cart-button{
+    display: block;
+    font-size:17px;
+    width: 100%;
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e7ddd2;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    text-align: center;
+}
+
+.cart-button:hover{
+        background-color: #D7C9BA;
+}
+
+.back-button{
+    display: block;
+     font-size:17px;
+    width: 100%;
+    padding: 16px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e7ddd2;
+    color: #1a1a24;
+    font-family: "HGP創英角ﾎﾟｯﾌﾟ体";
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-button:hover{
+        background-color: #D7C9BA;
+}
+
+@media(max-width:600px){
+main{
+    margin: 20px auto;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.price{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+}
