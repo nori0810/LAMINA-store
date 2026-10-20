@@ -27,7 +27,7 @@ h1{
 }
 
 .price{
-    font: size 56px; 
+    font-size :56px; 
     font-weight: bold;
     color: #8B6f55;
     margin-bottom: 30px;
