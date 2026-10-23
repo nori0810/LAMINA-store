@@ -46,7 +46,128 @@ a{
 
 .logo{
   font-size: 25px;
-  font-size: 800;
+  font-weight: 800;
   letter-spacing: -1.5px;
 }
 
+.logo span{
+  color: var(--red);
+}
+
+.header nav {
+  display: flex;
+  gap: 32px;
+}
+
+.header nav a,.cart{
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header nav a:hover,.move-sale{
+  color: var(--black)
+}
+
+.header nav a,.move-sale { 
+
+  border-bottom: 2px solid var(--red); 
+
+  padding-bottom: 7px; 
+
+} 
+
+.sale-section{
+  min-height: 390px;
+  background: var(--black);
+  color: var(--white);
+  padding: 16% 8%;
+  position: relative; /*上下左右に少し動くようだが、変わらない気が*/
+  display: flex;
+  align-items: center;
+  overflow: hidden; /*要素からはみ出ることはないが保険的な*/
+}
+
+.sale-section::after{
+  content: "SALE"; 
+
+  position: absolute; 
+
+  right: -15px; 
+
+  bottom: -85px; 
+
+  font-family: 'Barlow Condensed', sans-serif; 
+
+  font-size: clamp(180px, 30vw, 400px); 
+
+  font-weight: 900; 
+
+  line-height: 1; 
+
+  color: rgba(255, 255, 255, 0.095); 
+
+  pointer-events: none; }
+
+  .sp-sale,.section-lavel{
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
+
+  .sp-sale{
+    color: #bbbbbb;
+    margin-bottom: 8px;
+  }
+
+  .sale-section h1 span{
+    color: var(--red);
+  }
+
+  .sub{
+    margin-top: 16px;
+    font-size: 13px;
+    color: #dddddd;
+    letter-spacing: 1px;
+  }
+
+  .upTo{
+    margin-top: 18px;
+    color: #ff6661;
+    font-family: "Comic Sans MS";
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  .hero-button{
+    margin-top: 25px;
+    display: inline-flex;
+    align-items: center;
+    gap: 35px;
+    padding: 15px 20px;
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+     transition: background 0.2s, color 0.2s; 
+  }
+  .hero-button:hover{
+    background: var(--red);
+    color: var(--white);
+  }
+
+  .lower-right{
+ position: absolute; 
+
+  bottom: 22px; 
+
+  right: 6%; 
+
+  color: #888888; 
+
+  font-size: 9px; 
+
+  letter-spacing: 2px; 
+  }
