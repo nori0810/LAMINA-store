@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --black:#111111;
+    --white:#ffffff;
+    --gray:#858585;
+    --lite-gray:#f3f3f3;
+    --red:#e53935;
+    --cream:#fafafa;
+    
+}
+
+body{
+    color: var(--black);
+    background-color: var(--red);
+}
+
+body {
+  font-family: "HGP創英角ﾎﾟｯﾌﾟ体",
+   "Comic Sans MS", sans-serif;
+}
