@@ -1,23 +1,86 @@
-*{
+
+:root {
+    --red-dark: #390008;
+    --red-main: #650b17;
+    --red-light: #8b1828;
+    --gold: #b99b68;
+    --cream: #eee4ce;
+    --black: #180c0e;
+}
+
+* {
     box-sizing: border-box;
 }
 
-:root{
-    --black:#111111;
-    --white:#ffffff;
-    --gray:#858585;
-    --lite-gray:#f3f3f3;
-    --red:#e53935;
-    --cream:#fafafa;
-    
-}
-
-body{
-    color: var(--black);
-    background-color: var(--red);
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 84px;
 }
 
 body {
-  font-family: "HGP創英角ﾎﾟｯﾌﾟ体",
-   "Comic Sans MS", sans-serif;
+    margin: 0;
+    color: var(--cream);
+    background-color: var(--red-dark);
+    font-family: "Montserrat", "Noto Sans JP", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header {
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: rgba(49, 0, 8, .92);
+    border-bottom: 1px solid rgba(220, 190, 145, .28);
+    backdrop-filter: blur(12px);
+    transition: .4s;
+}
+
+.header.scrolled {
+    background: rgba(35, 0, 6, .97);
+}
+
+.logo {
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.logo span {
+    color: var(--gold);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav a {
+    color: var(--cream);
+    font-size: 9px;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.nav a:hover {
+    color: var(--gold);
+}
+
+.menu {
+    display: none;
+}
+
+main {
+    padding-top: 54px;
 }
