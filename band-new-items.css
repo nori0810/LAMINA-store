@@ -84,3 +84,29 @@ a {
 main {
     padding-top: 54px;
 }
+
+.gallery{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 36px auto;
+    padding: 0 20px;
+display: grid;
+grid-template-columns: 
+0.8fr
+1.1fr
+1.8fr
+1.1fr
+0.8fr;
+}
+
+.club{
+    min-height: 500px;
+    padding: 100px 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--cream);
+    
+}

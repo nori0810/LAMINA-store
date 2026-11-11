@@ -1,0 +1,1 @@
+console.log("member.jsが正常に読み込まれました。")
